@@ -25,6 +25,6 @@ jobs:
        context: ./
        push: true
        dockerfile: Dockerfile
-       tags: ${{ secrets.DOCKERHUB_USERNAME }}/nodejsaapp:${{ github.run_number}}   
+       tags: ${{ secrets.DOCKERHUB_USERNAME }}/nodeaapp:${{ github.run_number}}   
 
               
