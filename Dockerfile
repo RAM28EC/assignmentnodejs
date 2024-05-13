@@ -17,6 +17,6 @@ WORKDIR /app
 
 # Copy all files from the build stage
 COPY --from=build /app .
-
+CMD ["npm", "start"]
 # Expose port 3000 for development purposes
 EXPOSE 3000
